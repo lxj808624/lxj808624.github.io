@@ -2,43 +2,36 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>博客 · 林木茂盛</title>
-  <meta name="description" content="林木茂盛的博客：开源维护手记、量化研究与开发随笔。" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f5ef" />
+  <meta name="description" content="关于开源维护、量化研究与软件开发的记录。" />
+  <title>文字 · 林木茂盛</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../style.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>" />
 </head>
 <body>
-  <header class="nav">
-    <div class="container nav-inner">
-      <span class="logo"><a href="../index.html" style="color:inherit;text-decoration:none;">🌲 lxj808624</a></span>
-      <nav>
-        <a href="../index.html#about">关于</a>
-        <a href="../index.html#projects">项目</a>
-        <a href="../index.html#skills">技能</a>
-        <a href="../index.html#contact">联系</a>
-        <a href="index.html">博客</a>
-      </nav>
-    </div>
+  <a class="skip-link" href="#main">跳至正文</a>
+  <header class="site-header wrap">
+    <a class="identity" href="../index.html" aria-label="林木茂盛 · 首页"><span class="seal" aria-hidden="true">林</span><span>lxj808624</span></a>
+    <nav aria-label="主导航">
+      <a href="../index.html#about">关于</a>
+      <a href="../index.html#projects">项目</a>
+      <a href="index.html" aria-current="page">文字</a>
+    </nav>
   </header>
-
-  <main class="container">
-    <section style="padding:64px 0;">
-      <h1>📝 博客</h1>
-      <div class="grid">
-        <article class="card">
-          <h3><a href="dsh-tool-git-maintainer.html" style="color:var(--accent-2);text-decoration:none;">发布首日就有社区提交修复：一次真实的开源维护手记</a></h3>
-          <p style="color:var(--muted);">2026-08-15 · 开源</p>
-          <p>dsh-tool-git 发布 24 小时内收到一份专业级 bug 报告 + 修复 PR。记录验证、合并、测试基线升级、发版、致谢的完整维护流程。</p>
-        </article>
-      </div>
+  <main id="main" class="wrap archive">
+    <div class="page-heading"><h1>文字<span class="name-stop">。</span></h1></div>
+    <section class="section" aria-labelledby="year-title">
+      <div class="section-heading"><h2 id="year-title">2026</h2></div>
+      <a class="writing-link" href="dsh-tool-git-maintainer.html">
+        <time datetime="2026-08-15">08.15</time><div><h3>发布首日就有社区提交修复</h3></div><span class="writing-arrow" aria-hidden="true">↗</span>
+      </a>
     </section>
+    <a class="back-link" href="../index.html">← 返回首页</a>
   </main>
-
-  <footer class="footer">
-    <div class="container">
-      <p>© 2026 林木茂盛 · 保持好奇，保持输出 —— "探索未至之境。"</p>
-    </div>
+  <footer class="site-footer wrap">
+    <p>© 2026 林木茂盛</p>
+    <a href="https://github.com/lxj808624/lxj808624.github.io">本站源码 <span aria-hidden="true">↗</span></a>
   </footer>
 </body>
 </html>

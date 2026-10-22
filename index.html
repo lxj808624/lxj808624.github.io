@@ -2,118 +2,63 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>林木茂盛 · 量化研究员 / 全栈开发者 / AI Agent 贡献者</title>
-  <meta name="description" content="林木茂盛（lxj808624）的个人主页：量化策略研究、全栈开发、DeepSeek Harness 生态贡献。" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f5ef" />
+  <meta name="description" content="林木茂盛的个人网站。专注量化研究、全栈开发与 AI Agent 工具链，记录项目与开源实践。" />
+  <title>林木茂盛 · 量化研究与工具构建</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>" />
 </head>
 <body>
-  <header class="nav">
-    <div class="container nav-inner">
-      <span class="logo">🌲 lxj808624</span>
-      <nav>
-        <a href="#about">关于</a>
-        <a href="#projects">项目</a>
-        <a href="#skills">技能</a>
-        <a href="#contact">联系</a>
-        <a href="blog/index.html">博客</a>
-      </nav>
-    </div>
+  <a class="skip-link" href="#main">跳至正文</a>
+  <header class="site-header wrap">
+    <a class="identity" href="index.html" aria-label="林木茂盛 · 首页"><span class="seal" aria-hidden="true">林</span><span>lxj808624</span></a>
+    <nav aria-label="主导航">
+      <a href="index.html#about">关于</a>
+      <a href="index.html#projects">项目</a>
+      <a href="blog/index.html">文字</a>
+    </nav>
   </header>
-
-  <main>
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container">
-        <h1>你好，我是 <span class="accent">林木茂盛</span></h1>
-        <p class="lead">量化策略研究员 · 全栈开发者 · DeepSeek Harness 生态贡献者</p>
-        <p class="sub">把券商金工研报变成可运行的策略，把想法变成开源项目 —— 最近在深耕 AI Agent 工具链。</p>
-        <p class="sub gh-stats">GitHub: <span data-gh="followers">1</span> followers · <span data-gh="stars">4</span> stars · <span data-gh="forks">1</span> forks（与 GitHub 主页实时同步）</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="https://github.com/lxj808624/dsh-tool-git">⭐ 我的代表作 dsh-tool-git</a>
-          <a class="btn" href="https://github.com/lxj808624">GitHub</a>
-        </div>
+  <main id="main" class="wrap">
+    <section class="intro" id="about" aria-labelledby="intro-title">
+      <h1 id="intro-title">林木茂盛<span class="name-stop">。</span></h1>
+      <p class="intro-role">量化策略研究员 / 全栈开发者</p>
+      <div class="intro-copy">
+        <p>把金工研报变成可运行的策略，为 AI Agent 构建工具。</p>
+      </div>
+      <div class="intro-links" id="contact">
+        <a class="text-link" href="https://github.com/lxj808624">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </section>
 
-    <!-- Featured -->
-    <section class="featured" id="featured">
-      <div class="container">
-        <h2>🔥 近期亮点</h2>
-        <div class="card featured-card">
-          <div class="featured-main">
-            <h3>dsh-tool-git</h3>
-            <p class="tagline">DeepSeek Harness 结构化安全 Git 工具插件</p>
-            <p>12 个结构化 Git 工具（status/diff/log/branch/stage/commit/stash/show/fetch/pull/remote/checkout）+ <strong>破坏性命令安全门</strong>，让 AI Agent 安全高效地操作 Git。</p>
-            <ul class="feature-list">
-              <li>✅ 已发布 npm（<code>dsh-tool-git@<span data-gh="version">0.1.3</span></code>）与 GitHub（<code>dsh-plugin</code> 话题）</li>
-              <li>✅ 入选 awesome-deepseek-harness 官方生态列表</li>
-              <li>✅ 33 个测试全绿 · CI 全绿 · 中英文档齐全</li>
-            </ul>
-            <div class="card-actions">
-              <a class="btn primary small" href="https://github.com/lxj808624/dsh-tool-git">GitHub 仓库</a>
-              <a class="btn small" href="https://www.npmjs.com/package/dsh-tool-git">npm</a>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><h2 id="projects-title">项目与贡献</h2></div>
+      <article class="project-row">
+        <div class="project-top"><h3><a href="https://github.com/lxj808624/dsh-tool-git">dsh-tool-git <span class="link-arrow" aria-hidden="true">↗</span></a></h3><span class="project-kind">作者</span></div>
+        <p>DeepSeek Harness 的 Git 插件，提供 12 个结构化工具与破坏性操作保护。</p>
+        <div class="project-bottom"><p class="tech">TypeScript <span>·</span> Node.js <span>·</span> AI Agent</p><a class="subtle-link" href="https://www.npmjs.com/package/dsh-tool-git">npm <span data-gh="version"></span> ↗</a></div>
+      </article>
+      <article class="project-row">
+        <div class="project-top"><h3><a href="https://github.com/quantskills">QuantSkills <span class="link-arrow" aria-hidden="true">↗</span></a></h3><span class="project-kind">贡献者</span></div>
+        <p>参与量化 Agent 技能开发，涵盖 ETF 资金流、组合优化、Alpha 与异常检测。</p>
+        <div class="project-bottom"><p class="tech">Python <span>·</span> Quant Research <span>·</span> Agent Skills</p><a class="subtle-link" href="https://github.com/quantskills">组织主页 ↗</a></div>
+      </article>
     </section>
 
-    <!-- About -->
-    <section class="about" id="about">
-      <div class="container">
-        <h2>关于我</h2>
-        <p>我在量化研究与全栈开发之间穿行。最近的重心是 <strong>AI Agent 工具链</strong>：作为 DeepSeek Harness 开源社区贡献者，我主导开发了 <strong>dsh-tool-git</strong> 插件（npm + GitHub 双平台发布、入选官方 awesome 生态列表），并参与生态 bug 报告与社区讨论；同时作为 <strong>QuantSkills</strong>（quantskills 组织）的贡献者，参与量化 Agent 技能仓库的开发（46 个提交，覆盖 ETF 资金流雷达、Black-Litterman 组合优化、因子 Alpha 等）。</p>
-        <p>我相信开源的力量：好用的工具应该被分享，被验证，被更多人使用。</p>
-      </div>
+    <section class="section writing-section" aria-labelledby="writing-title">
+      <div class="section-heading"><h2 id="writing-title">文字</h2><a class="section-more" href="blog/index.html">全部文章 <span aria-hidden="true">↗</span></a></div>
+      <a class="writing-link" href="blog/dsh-tool-git-maintainer.html">
+        <time datetime="2026-08-15">2026.08.15</time>
+        <div><h3>发布首日就有社区提交修复</h3></div>
+        <span class="writing-arrow" aria-hidden="true">↗</span>
+      </a>
     </section>
 
-    <!-- Projects -->
-    <section class="projects" id="projects">
-      <div class="container">
-        <h2>代表项目与贡献</h2>
-        <div class="grid">
-          <article class="card">
-            <h3>🌲 dsh-tool-git</h3>
-            <p>DeepSeek Harness 结构化安全 Git 工具插件：12 个工具 + 破坏性命令安全门。我主导开发，npm + GitHub 双平台发布，入选官方 awesome 生态列表。</p>
-            <span class="chip">TypeScript</span><span class="chip">npm 发布</span><span class="chip">生态列表</span>
-          </article>
-          <article class="card">
-            <h3>📊 QuantSkills 贡献者</h3>
-            <p>参与 quantskills 组织量化 Agent 技能仓库开发：46 个提交，覆盖 ETF 资金流雷达、Black-Litterman 组合优化、A2 首板 Alpha、自编码器异常检测。</p>
-            <span class="chip">Python</span><span class="chip">Quant</span><span class="chip">Agent Skill</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="skills" id="skills">
-      <div class="container">
-        <h2>技能</h2>
-        <div class="skill-tags">
-          <span>TypeScript</span><span>Node.js</span><span>Python</span><span>量化研究</span><span>Git</span><span>AI Agent 工具链</span><span>全栈开发</span><span>开源维护</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <h2>联系我</h2>
-        <p>GitHub：<a href="https://github.com/lxj808624">github.com/lxj808624</a></p>
-        <p>npm：<a href="https://www.npmjs.com/package/dsh-tool-git">dsh-tool-git</a> · 开源合作、插件反馈都欢迎</p>
-      </div>
-    </section>
   </main>
-
-  <footer class="footer">
-    <div class="container">
-      <p>© 2026 林木茂盛 · 保持好奇，保持输出 —— "探索未至之境。"</p>
-      <p style="font-size:0.8rem;opacity:0.7;">GitHub 数据与主页实时同步 · <a href="https://github.com/lxj808624/lxj808624.github.io" style="color:inherit;">本站源码</a></p>
-    </div>
+  <script src="script.js" defer></script>
+  <footer class="site-footer wrap">
+    <p>© 2026 林木茂盛</p>
+    <a href="https://github.com/lxj808624/lxj808624.github.io">本站源码 <span aria-hidden="true">↗</span></a>
   </footer>
-  <script src="script.js"></script>
 </body>
 </html>
